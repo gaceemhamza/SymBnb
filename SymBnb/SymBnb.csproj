@@ -4,6 +4,32 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Migrations\20210122172846_AddUserToDatabase.cs" />
+    <Compile Remove="Migrations\20210122172846_AddUserToDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20210122175743_AddAdToUser.cs" />
+    <Compile Remove="Migrations\20210122175743_AddAdToUser.Designer.cs" />
+    <Compile Remove="Migrations\20210122184416_AddAdToUser.cs" />
+    <Compile Remove="Migrations\20210122184416_AddAdToUser.Designer.cs" />
+    <Compile Remove="Migrations\20210122184533_AddUserTodatabase.cs" />
+    <Compile Remove="Migrations\20210122184533_AddUserTodatabase.Designer.cs" />
+    <Compile Remove="Migrations\20210122184604_AddAdTodatabase.cs" />
+    <Compile Remove="Migrations\20210122184604_AddAdTodatabase.Designer.cs" />
+    <Compile Remove="Migrations\20210122190048_AddUserTodatabase.cs" />
+    <Compile Remove="Migrations\20210122190048_AddUserTodatabase.Designer.cs" />
+    <Compile Remove="Migrations\20210122190102_AddAdTodatabase.cs" />
+    <Compile Remove="Migrations\20210122190102_AddAdTodatabase.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 
 
 </Project>
